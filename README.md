@@ -4,7 +4,8 @@ A VBA implementation of list object, DogeList (inspired by python), Higher-order
 Usage:
 1) Import both Doge.bas, DogeList and DogeFung into your VBA project.
 2) Add reference to Microsoft Visual Basic for Applications Extensibility 5.3 (VBA Editor -> Tool -> References)
-3) Using lambda function will complie code at run time which will disable breakpoints. To enable breakpoint while using lambda, go to DogeFunc.cls, find the following code
+3) Make sure this is checked: Macro Settings -> Developer Macro Settings -> "Trust access to the VBA project object model"
+4) Using lambda function will complie code at run time which will disable breakpoints. To enable breakpoint while using lambda, go to DogeFunc.cls, find the following code
 ```VBA
 #Const DEBUGMODE = False
 ```
